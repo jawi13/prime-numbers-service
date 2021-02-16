@@ -77,3 +77,13 @@ GET localhost:8080/primes/10?alternateAlgo=true
 ```
 
 The alternate algorithm uses the Sieve of Eratosthenes method taken from this example: https://www.baeldung.com/java-generate-prime-numbers
+
+### Deployment
+
+This application has been deployed to Heroku and is available to query via a URL that matches the following example format:
+
+```
+https://prime-numbers-service.herokuapp.com/primes/10
+```
+
+'10' can be swapped for any integer and the request will return a response containing all prime numbers up to and including that number.
